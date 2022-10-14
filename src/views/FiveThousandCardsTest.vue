@@ -14,7 +14,7 @@ export default {
   components: {AppCardsList},
   data() {
     return {
-      cards: new Array(3000).fill({
+      cards: new Array(5000).fill({
         title: 'Title',
         description: 'Description',
       }).map((c, index) => ({ ...c, id: index})),
